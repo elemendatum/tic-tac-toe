@@ -1,0 +1,52 @@
+body {
+  font-family: "Arial", sans-serif;
+  background-image: url("../media/cell_backgrounds.jpg");
+}
+
+h1 {
+  font-size: 56px;
+  color: black;
+}
+
+.container {
+  text-align: center;
+  padding: 24px;
+  width: 50%;
+  margin: auto;
+  margin-top: -20px;
+  height: 100vh;
+  background-color: white;
+}
+
+.cell-container {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  width: 369px;
+  margin: auto;
+  color: white;
+  background-color: black;
+}
+
+.cell {
+  width: 117px;
+  height: 117px;
+  border: 3px solid wheat;
+  cursor: pointer;
+  line-height: 120px;
+  font-size: 60px;
+}
+
+.restart-btn {
+  background-color: orange;
+  width: 220px;
+  height: 55px;
+  font-size: 25px;
+  font-weight: bold;
+  color: black;
+  border: 1px solid black;
+  border-radius: 4px;
+  margin-top: 24px;
+}
+
+.winner-text {
+}
